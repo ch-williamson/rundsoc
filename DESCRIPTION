@@ -17,3 +17,5 @@ Imports:
     haven,
     magrittr,
     purrr
+URL: https://github.com/ch-williamson/rundsoc
+BugReports: https://github.com/ch-williamson/rundsoc/issues
