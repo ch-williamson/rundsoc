@@ -35,8 +35,8 @@ Gets individual response data for multiple waves.
 }
 \examples{
 \dontrun{
-get_ind_multiwave(c(4, 10), vars="envhabit1")
-get_ind(c(4, 10), vars=c("envhabit1", "envhabit2"), long=FALSE)
+get_ind_multiwave(dir="path/to/directory", waves=c(4, 10), vars="envhabit1")
+get_ind_multiwave(dir="path/to/directory", waves=c(4, 10), vars=c("envhabit1", "envhabit2"), long=FALSE)
 }
 
 }

@@ -31,8 +31,8 @@ Gets individual response data for a particular wave and set of variables.
 }
 \examples{
 \dontrun{
-get_ind(10, vars="envhabit1")
-get_ind(9)
+get_ind(dir="path/to/directory", wave=10, vars="envhabit1")
+get_ind(dir="path/to/directory", wave=9)
 }
 
 }

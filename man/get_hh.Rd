@@ -30,8 +30,8 @@ Gets household response data for a particular wave and set of variables.
 }
 \examples{
 \dontrun{
-get_hh(10, vars=c("agechy_dv", "hidp"))
-get_hh(9)
+get_hh(dir="path/to/directory", wave=10, vars=c("agechy_dv", "hidp"))
+get_hh(dir="path/to/directory", wave=9)
 }
 
 }

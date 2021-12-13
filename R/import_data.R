@@ -19,8 +19,8 @@
 #'
 #' @examples
 #' \dontrun{
-#' get_ind(10, vars="envhabit1")
-#' get_ind(9)
+#' get_ind(dir="path/to/directory", wave=10, vars="envhabit1")
+#' get_ind(dir="path/to/directory", wave=9)
 #' }
 #'
 #' @importFrom magrittr %>%
@@ -82,8 +82,8 @@ get_ind = function(dir, wave, vars = c(), long = TRUE) {
 #'
 #' @examples
 #' \dontrun{
-#' get_ind_multiwave(c(4, 10), vars="envhabit1")
-#' get_ind(c(4, 10), vars=c("envhabit1", "envhabit2"), long=FALSE)
+#' get_ind_multiwave(dir="path/to/directory", waves=c(4, 10), vars="envhabit1")
+#' get_ind_multiwave(dir="path/to/directory", waves=c(4, 10), vars=c("envhabit1", "envhabit2"), long=FALSE)
 #' }
 #'
 #' @importFrom magrittr %>%
@@ -123,8 +123,8 @@ get_ind_multiwave = function(dir, waves, vars, long=TRUE) {
 #'
 #' @examples
 #' \dontrun{
-#' get_hh(10, vars=c("agechy_dv", "hidp"))
-#' get_hh(9)
+#' get_hh(dir="path/to/directory", wave=10, vars=c("agechy_dv", "hidp"))
+#' get_hh(dir="path/to/directory", wave=9)
 #' }
 #'
 #' @importFrom magrittr %>%
